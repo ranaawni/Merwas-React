@@ -25,14 +25,14 @@ export default class Spanner extends Component {
           </Row>
           <Row>
             <Col id="sign">
-              <a class="links" href="#">
+              <a class="links" href="/">
                 Sign in
               </a>{" "}
               <span id="text">
                 and purchase any deal on site to be in the draw to win your
                 share of our prize pool worth over $10,000!
               </span>
-              <a class="links" href="#">
+              <a class="links" href="/">
                 {" "}
                 T's & c's apply.
               </a>

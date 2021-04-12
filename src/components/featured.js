@@ -1,15 +1,6 @@
 import React from "react";
 import "../App.css";
-import {
-  Container,
-  Row,
-  Col,
-  Card,
-  InputGroup,
-  FormControl,
-  Button,
-  CardDeck,
-} from "react-bootstrap";
+import { Container, Row, Col, Card, CardDeck } from "react-bootstrap";
 
 import card3 from "../assets/card3.jpg";
 import card4 from "../assets/card4.jpg";

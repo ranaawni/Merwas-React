@@ -1,12 +1,5 @@
 import React, { Component } from "react";
-import {
-  Navbar,
-  NavDropdown,
-  FormControl,
-  Form,
-  Button,
-  Nav,
-} from "react-bootstrap";
+import { Navbar, FormControl, Form, Button, Nav } from "react-bootstrap";
 import "../App.css";
 
 export default class SecondNav extends Component {
@@ -25,8 +18,8 @@ export default class SecondNav extends Component {
             <Button variant="outline-info">Search</Button>
           </Form>
         </Navbar>
-        <br/>
-        <br/>
+        <br />
+        <br />
       </>
     );
   }
