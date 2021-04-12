@@ -135,6 +135,8 @@ export default class Spanner extends Component {
             </Col>
           </Row>
         </Container>
+        <br />
+        <br />
       </>
     );
   }
