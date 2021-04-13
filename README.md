@@ -21,7 +21,7 @@ Merwas Technical Task
 
 ## Deployment Link
 
-![This is a link](https://merwas-react.herokuapp.com/)
+!(This is a link)[https://merwas-react.herokuapp.com/]
 ​
 
 ### Installing Dependencies
