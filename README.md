@@ -3,12 +3,9 @@
 Merwas Technical Task
 ​
 
-
-
 ## Table of Contents
 
 ​
-
 
 1. [Technologies](#technologies)
 
@@ -16,18 +13,15 @@ Merwas Technical Task
 
 2. [Deployment Link](#deployment)
 
-      ​
-
-
+   ​
 
 ## Technologies
+
 - react
-
-
 
 ## Deployment Link
 
-![a link](https://merwas-react.herokuapp.com/)
+![This is a link](https://merwas-react.herokuapp.com/)
 ​
 
 ### Installing Dependencies
