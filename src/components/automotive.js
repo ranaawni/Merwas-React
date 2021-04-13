@@ -67,7 +67,7 @@ function Automotive() {
               </Card.Footer>
             </Card>
 
-            <Card id="imgCardF" class="mb-4">
+            <Card id="imgCardF" className="mb-4">
               <Card.Img class="card-image-F" src={card9} />
               <Card.Body class="cardBodyF">
                 <Card.Title class="cardTitle">
@@ -76,7 +76,7 @@ function Automotive() {
                 <Card.Text class="cardText">Wairakei Terraces</Card.Text>
                 <Card.Text id="secText">Wairakei</Card.Text>
               </Card.Body>
-              <Card.Footer class="cardFooter">
+              <Card.Footer className="cardFooter">
                 <small className="text-muted">118 bought</small>
                 <small className="text-muted">
                   <span class="price2">$1,095</span>
@@ -84,8 +84,8 @@ function Automotive() {
               </Card.Footer>
             </Card>
 
-            <Card id="imgCardF" class="mb-4">
-              <Card.Img class="card-image-F" src={card10} />
+            <Card id="imgCardF" className="mb-4">
+              <Card.Img className="card-image-F" src={card10} />
 
               <Card.Body class="cardBodyF">
                 <Card.Title class="cardTitle">

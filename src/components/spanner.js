@@ -16,14 +16,14 @@ export default class Spanner extends Component {
           </Row>
           <Row>
             <Col id="sign">
-              <a class="links" href="/">
+              <a className="links" href="/">
                 Sign in
               </a>{" "}
               <span id="text">
                 and purchase any deal on site to be in the draw to win your
                 share of our prize pool worth over $10,000!
               </span>
-              <a class="links" href="/">
+              <a className="links" href="/">
                 {" "}
                 T's & c's apply.
               </a>
@@ -65,20 +65,20 @@ export default class Spanner extends Component {
           </Card>
 
           <Card id="imgCard" style={{ height: "470px", width: "700px" }}>
-            <Card.Img class="card-image" src={card1} />
-            <Card.Body class="cardBody">
-              <Card.Title class="cardTitle">
+            <Card.Img className="card-image" src={card1} />
+            <Card.Body className="cardBody">
+              <Card.Title className="cardTitle">
                 Three-Day Abel Tasman Self Guided Walk
               </Card.Title>
-              <Card.Text class="cardText">
+              <Card.Text className="cardText">
                 Three-Day Abel Tasman Self Guided Walk.{" "}
               </Card.Text>
             </Card.Body>
             <Card.Footer id="cardFooter1" class="cardFooter">
               <small className="text-muted">118 bought</small>
               <small className="text-muted">
-                <span class="price1">$1,445</span>
-                <span class="price2">$1,095</span>
+                <span className="price1">$1,445</span>
+                <span className="price2">$1,095</span>
               </small>
             </Card.Footer>
           </Card>
@@ -101,8 +101,8 @@ export default class Spanner extends Component {
             <Card.Footer class="cardFooter">
               <small className="text-muted">14890 bought</small>
               <small className="text-muted">
-                <span class="price12">$25</span>
-                <span class="price2">$15</span>
+                <span className="price12">$25</span>
+                <span className="price2">$15</span>
               </small>
             </Card.Footer>
           </Card>
