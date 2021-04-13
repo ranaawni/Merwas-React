@@ -73,7 +73,7 @@ export default class Spanner extends Component {
             </Card.Body>
           </Card>
 
-          <Card id="imgCard" class="mb-4">
+          <Card id="imgCard" style={{ height: "470px", width: "700px" }}>
             <Card.Img class="card-image" src={card1} />
             <Card.Body class="cardBody">
               <Card.Title class="cardTitle">
@@ -92,7 +92,11 @@ export default class Spanner extends Component {
             </Card.Footer>
           </Card>
 
-          <Card id="imgCard" class="mb-4">
+          <Card
+            id="imgCard"
+            class="mb-4"
+            style={{ height: "470px", width: "700px" }}
+          >
             <Card.Img class="card-image" src={card2} />
 
             <Card.Body class="cardBody">
@@ -115,26 +119,6 @@ export default class Spanner extends Component {
 
         <br />
         <br />
-
-        <Container>
-          <Row id="subscribe">
-            <Col id="subText">
-              Get the best deals delivered direct to your inbox each day
-            </Col>
-            <Col>
-              <InputGroup className="mb-3">
-                <FormControl
-                  placeholder="Recipient's username"
-                  aria-label="Recipient's username"
-                  aria-describedby="basic-addon2"
-                />
-                <InputGroup.Append>
-                  <Button variant="outline-secondary">Button</Button>
-                </InputGroup.Append>
-              </InputGroup>
-            </Col>
-          </Row>
-        </Container>
         <br />
         <br />
       </>

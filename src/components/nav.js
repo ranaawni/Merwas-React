@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavDropdown } from "react-bootstrap";
+import { Container, NavDropdown, Row, Col } from "react-bootstrap";
 import "../App.css";
 
 export default class Navigation extends Component {
@@ -41,7 +41,7 @@ export default class Navigation extends Component {
                 <i class="fas fa-map-marker-alt" id="locAwesom"></i>
               </li>
               <li>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                <NavDropdown title="Aukland" id="collasible-nav-dropdown">
                   <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                   <NavDropdown.Item href="#action/3.2">
                     Another action
@@ -56,10 +56,59 @@ export default class Navigation extends Component {
                 </NavDropdown>
               </li>
               <li>
-                <a href="/">About</a>
+                <i class=" down1 fas fa-chevron-down"></i>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <a href="/">
+                  <i class="far fa-heart"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <i class="fas fa-user-alt"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <i class="down2 fas fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <i class="far fa-envelope"></i>
+                </a>
+              </li>
+              <li>
+                <a href="/" class="subscribe">
+                  Subscribe
+                </a>
+              </li>
+              <li>
+                <div class="vl"></div>
+              </li>
+              <li class="power">
+                <Container>
+                  <Row>
+                    <Col style={{ fontSize: "10px" }}>Powered by</Col>
+                    <Col style={{ fontSize: "25px" }}>
+                      NZ
+                      <span
+                        style={{
+                          color: "black",
+                          fontFamily: "Russo One, sans-serif",
+                          fontWeight: "bold",
+                        }}
+                      >
+                        ME
+                      </span>
+                    </Col>
+                  </Row>
+                </Container>
               </li>
             </ul>
           </div>

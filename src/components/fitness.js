@@ -17,7 +17,11 @@ function Fitness() {
           </Col>
 
           <Col class="col-6" id="featuredBtn">
-            <button type="button" class="btnFeatured">
+            <button
+              type="button"
+              class="btnFeatured"
+              style={{ marginLeft: "100px" }}
+            >
               view more {">"}
             </button>
           </Col>
@@ -37,10 +41,13 @@ function Fitness() {
                 <Card.Text id="secText">Wairakei</Card.Text>
               </Card.Body>
               <Card.Footer class="cardFooter">
-                <small className="text-muted">118 bought</small>
+                <small className="text-muted" style={{ marginTop: "20px" }}>
+                  118 bought
+                </small>
                 <small className="text-muted">
-                  <span class="price1">$1,445</span>
-                  <span class="price2">$1,095</span>
+                  <span class="price2" style={{ marginTop: "20px" }}>
+                    $1,095
+                  </span>
                 </small>
               </Card.Footer>
             </Card>
@@ -51,7 +58,7 @@ function Fitness() {
               <Card.Body class="cardBodyF">
                 <Card.Title class="cardTitle">
                   {" "}
-                  Thermal Hot Pool Entry (14 Years & Over Only)
+                  Thermal Hot Pool Entry (14 Years)
                 </Card.Title>
                 <Card.Text class="cardText">Wairakei Terraces</Card.Text>
                 <Card.Text id="secText">Wairakei</Card.Text>
@@ -59,7 +66,6 @@ function Fitness() {
               <Card.Footer class="cardFooter">
                 <small className="text-muted">14890 bought</small>
                 <small className="text-muted">
-                  <span class="price12">$25</span>
                   <span class="price2">$15</span>
                 </small>
               </Card.Footer>
@@ -71,14 +77,12 @@ function Fitness() {
                 <Card.Title class="cardTitle">
                   Three-Day Abel Tasman Self Guided Walk
                 </Card.Title>
-                <Card.Text class="cardText">
-                  Three-Day Abel Tasman Self Guided Walk.{" "}
-                </Card.Text>
+                <Card.Text class="cardText">Wairakei Terraces</Card.Text>
+                <Card.Text id="secText">Wairakei</Card.Text>
               </Card.Body>
               <Card.Footer class="cardFooter">
                 <small className="text-muted">118 bought</small>
                 <small className="text-muted">
-                  <span class="price1">$1,445</span>
                   <span class="price2">$1,095</span>
                 </small>
               </Card.Footer>
@@ -90,7 +94,7 @@ function Fitness() {
               <Card.Body class="cardBodyF">
                 <Card.Title class="cardTitle">
                   {" "}
-                  Thermal Hot Pool Entry (14 Years & Over Only)
+                  Thermal Hot Pool Entry (14 Years)
                 </Card.Title>
                 <Card.Text class="cardText">Wairakei Terraces</Card.Text>
                 <Card.Text id="secText">Wairakei</Card.Text>
@@ -98,7 +102,6 @@ function Fitness() {
               <Card.Footer class="cardFooter">
                 <small className="text-muted">14890 bought</small>
                 <small className="text-muted">
-                  <span class="price12">$25</span>
                   <span class="price2">$15</span>
                 </small>
               </Card.Footer>

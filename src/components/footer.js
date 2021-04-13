@@ -1,46 +1,30 @@
 import React from "react";
 import "../App.css";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
     <div className="main-footer">
-      <div className="container">
-        <div className="row">
-          {/* Column1 */}
-          <div className="col">
-            <h4>THICC MEMES INC</h4>
-            <h1 className="list-unstyled">
-              <li>342-420-6969</li>
-              <li>Moscow, Russia</li>
-              <li>123 Streeet South North</li>
-            </h1>
-          </div>
-          {/* Column2 */}
-          <div className="col">
-            <h4>Stuff</h4>
-            <ui className="list-unstyled">
-              <li>DANK MEMES</li>
-              <li>OTHER STUFF</li>
-              <li>GUD STUFF</li>
-            </ui>
-          </div>
-          {/* Column3 */}
-          <div className="col">
-            <h4>WELL ANOTHER COLUMN</h4>
-            <ui>
-              <li>DANK MEMES</li>
-              <li>OTHER STUFF</li>
-              <li>GUD STUFF</li>
-            </ui>
-          </div>
-        </div>
-        <hr />
-        <div className="row">
-          <p className="col-sm">
-            &copy;{new Date().getFullYear()} THICC MEMES | All rights reserved |
-            Terms Of Service | Privacy
-          </p>
-        </div>
+      <div className="container containerFooter">
+        <Container>
+          <Row>
+            <Col xs>
+              <p>Follow us on</p>
+              <p>
+                <i class="fab fa-facebook fa-2x"></i>
+                <i class="fab fa-twitter-square fa-2x"></i>
+                <i class="fab fa-instagram fa-2x"></i>
+                <i class="fab fa-youtube fa-2x"></i>
+              </p>
+              <p id="textGet">Get app exclusive deals</p>
+              <p>
+                <button id="downloadbtn">Download Our App</button>
+              </p>
+            </Col>
+            <Col xs></Col>
+            <Col xs></Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );
