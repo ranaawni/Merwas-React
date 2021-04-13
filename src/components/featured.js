@@ -6,6 +6,10 @@ import card3 from "../assets/card3.jpg";
 import card4 from "../assets/card4.jpg";
 import card5 from "../assets/card5.jpg";
 import card6 from "../assets/card6.jpg";
+import card7 from "../assets/card7.jpg";
+import card8 from "../assets/card8.jpg";
+import card9 from "../assets/card9.jpg";
+import card10 from "../assets/card10.jpg";
 
 function Featured() {
   return (
@@ -108,7 +112,7 @@ function Featured() {
             </Card>
 
             <Card id="imgCardF" class="mb-4">
-              <Card.Img class="card-image-F" src={card3} />
+              <Card.Img class="card-image-F" src={card7} />
               <Card.Body class="cardBodyF">
                 <Card.Title class="cardTitle">
                   Three-Day Abel Tasman Self Guided Walk
@@ -129,7 +133,7 @@ function Featured() {
             </Card>
 
             <Card id="imgCardF" class="mb-4">
-              <Card.Img class="card-image-F" src={card4} />
+              <Card.Img class="card-image-F" src={card8} />
 
               <Card.Body class="cardBodyF">
                 <Card.Title class="cardTitle">
@@ -148,7 +152,7 @@ function Featured() {
             </Card>
 
             <Card id="imgCardF" class="mb-4">
-              <Card.Img class="card-image-F" src={card5} />
+              <Card.Img class="card-image-F" src={card9} />
               <Card.Body class="cardBodyF">
                 <Card.Title class="cardTitle">
                   Three-Day Abel Tasman Self Guided Walk
@@ -165,7 +169,7 @@ function Featured() {
             </Card>
 
             <Card id="imgCardF" class="mb-4">
-              <Card.Img class="card-image-F" src={card6} />
+              <Card.Img class="card-image-F" src={card10} />
 
               <Card.Body class="cardBodyF">
                 <Card.Title class="cardTitle">
